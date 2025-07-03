@@ -17,7 +17,7 @@ int perfect(int n){
 int main(){
     int n;
     scanf("%d", &n);
-    for(int i=6; i<=n; i++){
+    for(int i=6; i<n; i++){
         if(perfect(i)) print("%d ", i);
     }
 }
